@@ -12,6 +12,8 @@
 
   <ItemGroup>
     <Content Remove="Pages\Add New Student.cshtml" />
+    <Content Remove="wwwroot\Images\BackgroundImage.jpg" />
+    <Content Remove="wwwroot\Images\vecteezy_abstract-black-background-black-and-white-background_26801459 %281%29.jpg" />
   </ItemGroup>
 
 </Project>

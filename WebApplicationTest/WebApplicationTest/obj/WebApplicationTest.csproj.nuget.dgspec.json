@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj": {}
+    "C:\\Users\\sehar\\Documents\\TestWebApp\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj": {}
   },
   "projects": {
-    "D:\\Project\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj": {
+    "C:\\Users\\sehar\\Documents\\TestWebApp\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj",
+        "projectUniqueName": "C:\\Users\\sehar\\Documents\\TestWebApp\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj",
         "projectName": "WebApplicationTest",
-        "projectPath": "D:\\Project\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj",
+        "projectPath": "C:\\Users\\sehar\\Documents\\TestWebApp\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj",
         "packagesPath": "C:\\Users\\sehar\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\WebApplicationTest\\WebApplicationTest\\obj\\",
+        "outputPath": "C:\\Users\\sehar\\Documents\\TestWebApp\\WebApplicationTest\\WebApplicationTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

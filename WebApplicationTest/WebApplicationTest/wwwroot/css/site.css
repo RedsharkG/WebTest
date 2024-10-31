@@ -64,21 +64,12 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
-  font-family: Raleway !important;
+    margin-bottom: 60px;
+    font-family: Raleway !important;
+    background-image: url('/Images/BackgroundImage.png');
+    background-size:cover;
 }
 
-.home-butto-2dabe2dd0d32 > svg {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    transform: translate(-1.6000000000003638px,-1.6000000000000227px);
-}
 
-.home-butto-2dabe2dd0d32 {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 160px;
-    height: 47.39px;
-}
+
+
