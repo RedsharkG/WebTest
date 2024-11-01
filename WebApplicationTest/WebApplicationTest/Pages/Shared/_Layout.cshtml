@@ -11,27 +11,51 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    
-                    <div class="navbar-nav">
+                    <div class="navbar-nav ms-auto">
+                        <!-- Add ms-auto to push buttons to the right -->
+                        <!-- Button for Home -->
+                        <form asp-area="" asp-page="/Index" class="d-inline">
+                            <button type="submit" class="btn nav-link" aria-current="page">
+                                <i class="bi bi-house"></i> <!-- Example icon for Home -->
+                                Home
+                            </button>
+                        </form>
 
-                        <a class="nav-link active" aria-current="page" asp-area="" asp-page="/Index">Home</a>
-                        <a class="nav-link" asp-area="" asp-page="/StudentInfo"> StudentInfo </a>
-                        <a class="nav-link" asp-area="" asp-page="/AddNewStudent">Add New Student </a>
-                        <a class="nav-link" asp-area="" asp-page="/AddNewCourse">Add New Course </a>
+                        <!-- Button for Student Info -->
+                        <form asp-area="" asp-page="/StudentInfo" class="d-inline">
+                            <button type="submit" class="btn nav-link">
+                                <i class="bi bi-person"></i> <!-- Example icon for Student Info -->
+                                Student Info
+                            </button>
+                        </form>
 
+                        <!-- Button for Add New Student -->
+                        <form asp-area="" asp-page="/AddNewStudent" class="d-inline">
+                            <button type="submit" class="btn nav-link">
+                                <i class="bi bi-plus-circle"></i> <!-- Example icon for Add New Student -->
+                                Add New Student
+                            </button>
+                        </form>
+
+                        <!-- Button for Add New Course -->
+                        <form asp-area="" asp-page="/AddNewCourse" class="d-inline">
+                            <button type="submit" class="btn nav-link">
+                                <i class="bi bi-book"></i> <!-- Example icon for Add New Course -->
+                                Add New Course
+                            </button>
+                        </form>
                     </div>
-
                 </div>
             </div>
         </nav>
-       
     </header>
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

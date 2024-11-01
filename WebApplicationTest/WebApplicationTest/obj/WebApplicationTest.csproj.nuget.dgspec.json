@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sehar\\Desktop\\WebApp\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj": {}
+    "D:\\SEHARA\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sehar\\Desktop\\WebApp\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj": {
+    "D:\\SEHARA\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sehar\\Desktop\\WebApp\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj",
+        "projectUniqueName": "D:\\SEHARA\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj",
         "projectName": "WebApplicationTest",
-        "projectPath": "C:\\Users\\sehar\\Desktop\\WebApp\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj",
-        "packagesPath": "C:\\Users\\sehar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sehar\\Desktop\\WebApp\\WebApplicationTest\\WebApplicationTest\\obj\\",
+        "projectPath": "D:\\SEHARA\\WebApplicationTest\\WebApplicationTest\\WebApplicationTest.csproj",
+        "packagesPath": "C:\\Users\\thenu\\.nuget\\packages\\",
+        "outputPath": "D:\\SEHARA\\WebApplicationTest\\WebApplicationTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sehar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\thenu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -70,4 +70,23 @@ body {
     background-size:cover;
 }
 
+.nav-link {
+    color: white;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    background: linear-gradient(90deg, #031884, transparent); /* Gradient effect for nav links */
+    height: 50.588px; /* Set button height */
+    margin-right: 1rem; /* Add space between buttons */
+    border-radius: 25px; /* Capsule shape */
+    border: none; /* Remove border */
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+/* Specific styles for the last two buttons */
+.navbar-nav form:nth-last-child(-n+2) .nav-link {
+    width: 200px; /* Set width for last two buttons */
+}
+
 
