@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ap/jVnpLr1XyHEzlwgkoqxX+3p3L6b0XaFu+kyi7i2k=",
+  "Hash": "KavAflE1HinoaisG6WzVrdhZkUeH+K9R3FPTAxvhotM=",
   "Source": "WebApplicationTest",
   "BasePath": "_content/WebApplicationTest",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\sehar\\Desktop\\WebApp\\WebApplicationTest\\WebApplicationTest\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApplicationTest.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\sehar\\Desktop\\WebApp\\WebApplicationTest\\WebApplicationTest\\wwwroot\\css\\AddNewCourse.css",
+      "SourceId": "WebApplicationTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sehar\\Desktop\\WebApp\\WebApplicationTest\\WebApplicationTest\\wwwroot\\",
+      "BasePath": "_content/WebApplicationTest",
+      "RelativePath": "css/AddNewCourse.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\AddNewCourse.css"
     },
     {
       "Identity": "C:\\Users\\sehar\\Desktop\\WebApp\\WebApplicationTest\\WebApplicationTest\\wwwroot\\css\\index.css",

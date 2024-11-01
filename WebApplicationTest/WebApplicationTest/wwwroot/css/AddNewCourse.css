@@ -1,0 +1,16 @@
+﻿
+
+
+
+/* Header Gradients and Adjustments */
+.customHeader {
+    background: linear-gradient(to bottom, #ffffff, #4c7fe5);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+    letter-spacing: 4.2px !important;
+    font-weight: 800 !important;
+}
+
+

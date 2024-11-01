@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\Images\\BackgroundImage.png"
     },
     {
+      "Id": "C:\\Users\\sehar\\Desktop\\WebApp\\WebApplicationTest\\WebApplicationTest\\wwwroot\\css\\AddNewCourse.css",
+      "PackagePath": "staticwebassets\\css\\AddNewCourse.css"
+    },
+    {
       "Id": "C:\\Users\\sehar\\Desktop\\WebApp\\WebApplicationTest\\WebApplicationTest\\wwwroot\\css\\index.css",
       "PackagePath": "staticwebassets\\css\\index.css"
     },

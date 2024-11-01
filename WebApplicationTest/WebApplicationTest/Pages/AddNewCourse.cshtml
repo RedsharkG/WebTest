@@ -2,3 +2,60 @@
 @model WebApplicationTest.Pages.AddNewCourseModel
 @{
 }
+
+@{
+    ViewData["Title"] = "AddNewCourse";
+    
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]- AddNewCourse </title>
+    <link rel="stylesheet" href="~/css/AddNewCourse.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+</head>
+<body>
+  
+   <!-- Add New -->
+    <header>
+        <h2 class="customHeader text-center mt-5"> Add New Course Information </h2>
+        
+    </header>
+
+    <article>
+
+        <!-- Content Form | Verticle -->
+        <form>
+
+            <div class="mb-3 row justify-content-md-center">
+                <label for="exampleInputEmail1" class="form-label"> Name </label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"></label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+        </form>
+
+    </article>
+
+
+
+
+
+
+</body>
+</html>
