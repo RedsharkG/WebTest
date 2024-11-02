@@ -13,14 +13,31 @@
 }
 
 .form-container {
+/* This block aligns the items to center */
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+
+/* Text Controlling   */
+    letter-spacing: 3px;
+    text-align:center;
+
+/* Adjustments */
     height: 100vh;
     background: linear-gradient(160deg, #031884, transparent); /* Gradient from a dark blue to transparent */
-    padding: 40px; /* Padding around the form */
+    padding: 70px; /* Padding around the form */
     border-radius: 50px; /* Optional: rounded corners */
-    width: 400px; /* Adjust the width as needed */
+    /*width: 400px;*/ /* Adjust the width as needed */
     height: auto; /* Adjust the height as needed */
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
 
+}
+
+/* Custome aligns for first id input */
+.custom-input {
+    display: block;
+    margin: 0 auto;
+    width: 50% !important; /* 50 percent by 60 percent that assigned to this parent container */
 }
 
 .form-label {
@@ -33,12 +50,23 @@
     margin:5px;
 }
 
-form {
+/*form {
     display: flex;
-    justify-content: center; /* Center the form horizontally */
-    align-items: center; /* Center the form vertically */
-}
+    justify-content: center;*/ /* Center the form horizontally */
+    /*align-items: center;*/ /* Center the form vertically */
+/*}*/
 
 button {
-    background: linear-gradient(160deg, #0624d5, transparent); /* Gradient from #0624d5 to transparent */
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+
 }
+
+.btn:hover {
+    box-shadow: 0px 0px 16px 0px #6c85fb !important;
+}
+
+.btn-gradient {
+    background-image: linear-gradient(to right, #6c85fb, #0624d5 ) !important;
+}
+
