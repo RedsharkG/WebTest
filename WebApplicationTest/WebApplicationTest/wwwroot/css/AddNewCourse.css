@@ -15,7 +15,7 @@
 .form-container {
     height: 100vh;
     background: linear-gradient(160deg, #031884, transparent); /* Gradient from a dark blue to transparent */
-    padding: 20px; /* Padding around the form */
+    padding: 40px; /* Padding around the form */
     border-radius: 50px; /* Optional: rounded corners */
     width: 400px; /* Adjust the width as needed */
     height: auto; /* Adjust the height as needed */
