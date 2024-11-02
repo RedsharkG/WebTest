@@ -1,7 +1,6 @@
 ﻿
 
 
-
 /* Header Gradients and Adjustments */
 .customHeader {
     background: linear-gradient(to bottom, #ffffff, #4c7fe5);
@@ -13,4 +12,33 @@
     font-weight: 800 !important;
 }
 
+.form-container {
+    height: 100vh;
+    background: linear-gradient(160deg, #031884, transparent); /* Gradient from a dark blue to transparent */
+    padding: 20px; /* Padding around the form */
+    border-radius: 50px; /* Optional: rounded corners */
+    width: 400px; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
 
+}
+
+.form-label {
+    color: white; /* Change label color to white */
+    margin: 10px;
+    text-align:center;
+}
+
+.col{
+    margin:5px;
+}
+
+form {
+    display: flex;
+    justify-content: center; /* Center the form horizontally */
+    align-items: center; /* Center the form vertically */
+}
+
+button {
+    background: linear-gradient(160deg, #0624d5, transparent); /* Gradient from #0624d5 to transparent */
+}

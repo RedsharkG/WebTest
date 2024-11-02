@@ -15,7 +15,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewData["Title"]- AddNewCourse </title>
     <link rel="stylesheet" href="~/css/AddNewCourse.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
 
 </head>
 <body>
@@ -28,27 +30,30 @@
 
     <article>
 
-        <!-- Content Form | Verticle -->
-        <form>
+       <div class="form-container">
+             <form class="row g-3">
+                <div class="col-md-12">
+                    <label for="courseid" class="form-label">Course ID</label>
+                    <input type="number" class="form-control" id="courseid">
+                </div>
+                <div class="col-md-12">
+                    <label for="courseName" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="courseName">
+                </div>
+                <div class="col-12">
+                    <label for="lecturerName" class="form-label">Lecturer Name</label>
+                    <input type="text" class="form-control" id="lecturerName">
+                </div>
+        
+                <div class="col-6">
+                    <button type="reset" class="btn btn-primary ">Clear</button>
+                </div>
+                        <div class="col-6">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                        </div>
+            </form>
+        </div>
 
-            <div class="mb-3 row justify-content-md-center">
-                <label for="exampleInputEmail1" class="form-label"> Name </label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label"></label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-
-            <button type="submit" class="btn btn-primary">Submit</button>
-
-        </form>
 
     </article>
 
